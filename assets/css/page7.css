@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* MAIN */
+
+.slider-section {
+  max-width: 1000px;
+  width: 80%;
+  margin-inline: auto;
+  position: relative;
+}
+
+.slider-section h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: rgb(57, 95, 190);
+}
+
+.slider-item {
+  border: 1px solid rgb(57, 95, 190);
+  border-radius: 10px;
+  width: 100%;
+  padding: 25px;
+}
+
+.slider-item > p {
+  margin-top: 30px;
+}
+
+.slider-item .rating img {
+  width: 15px;
+  display: inline-block !important;
+}
+
+.slider-item .slider-item-client {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.slider-item-client img {
+  width: 50px;
+}
+
+/* Slick customizations */
+
+.slick-arrow {
+  background-color: red !important;
+}
+
+/* the slides */
+.slick-slide {
+  margin: 0 15px !important;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -15px !important;
+}
