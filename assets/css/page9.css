@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  /* margin: 0 !important;
+  padding: 0 !important; */
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box !important;
+}
+
+.appartment-goats-faqs {
+  background-color: rgba(186, 218, 249, 1);
+  background-image: url(../images/page-9-faqs-buildings-bg.png);
+  background-size: 400px auto;
+  background-repeat: no-repeat;
+  background-position: bottom left 5%;
+  padding-block: 48px;
+}
+
+.container {
+  max-width: 1500px !important;
+  width: 90% !important;
+}
+
+.appartment-goats-faqs-inner {
+  /* max-width: 2500px;
+  width: 95%; */
+}
+
+.find-appartments-btn {
+  color: white;
+  background-color: rgba(34, 34, 59, 1);
+}
+
+.find-appartments-btn img {
+  max-width: 25px;
+}
+
+.find-appartments-btn span {
+  font-weight: 600;
+}
+
+.faqs-accordian-paragraph {
+  color: rgba(99, 99, 109, 1);
+}
+
+@media (width <= 768px) {
+  .appartment-goats-faqs {
+    padding-bottom: 350px !important;
+    background-position: bottom;
+    background-size: 100% 350px;
+  }
+}
